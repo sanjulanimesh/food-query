@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Pane prefHeight="400.0" prefWidth="600.0">
+            <children>
+                <Label layoutX="93.0" layoutY="60.0" prefHeight="47.0" prefWidth="147.0" text="Customer Name :">
+                    <font>
+                        <Font name="Arial Italic" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelName" layoutX="93.0" layoutY="100.0" prefHeight="23.0" prefWidth="318.0">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="94.0" layoutY="127.0" prefHeight="47.0" prefWidth="183.0" text="Customer Placement :">
+                    <font>
+                        <Font name="Arial Italic" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelPlacement" layoutX="93.0" layoutY="170.0" prefHeight="27.0" prefWidth="213.0">
+                    <font>
+                        <Font name="Wingdings" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="93.0" layoutY="197.0" prefHeight="47.0" prefWidth="172.0" text="Requested Burgers :">
+                    <font>
+                        <Font name="Arial Italic" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelBurgers" layoutX="93.0" layoutY="244.0" prefHeight="27.0" prefWidth="213.0">
+                    <font>
+                        <Font name="Wingdings" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="93.0" layoutY="271.0" prefHeight="47.0" prefWidth="73.0" text="Queue :">
+                    <font>
+                        <Font name="Arial Italic" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelQueue" layoutX="170.0" layoutY="281.0" prefHeight="27.0" prefWidth="73.0">
+                    <font>
+                        <Font name="Wingdings" size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="346.0" layoutY="271.0" prefHeight="47.0" prefWidth="79.0" text="Position :">
+                    <font>
+                        <Font name="Arial Italic" size="18.0" />
+                    </font>
+                </Label>
+                <Label fx:id="labelPosition" layoutX="434.0" layoutY="281.0" prefHeight="27.0" prefWidth="73.0">
+                    <font>
+                        <Font name="Wingdings" size="18.0" />
+                    </font>
+                </Label>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>
